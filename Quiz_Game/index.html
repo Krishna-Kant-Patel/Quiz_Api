@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="nav_bar">
+        <div id="App_heading">
+            <h1 id="heading">Quiz App</h1>
+        </div>
+        <div id="install_app">
+            <button id="install_button"><i class="fa fa-download"></i> Install</button>
+        </div>
+    </div>
+    <div id="main_container">
+        <img id="mind_image" src="https://img.freepik.com/free-vector/head-profile-with-gears_98292-387.jpg?w=740&t=st=1673011053~exp=1673011653~hmac=78e6278ce19e407b39e6f59a992817e48b91ccbb97b44789559b3fb6bd7c0b61" alt="logo"/>
+        <div id="container_box">
+            <h1 id="quiz_heading">The Ultimate Trivia Quiz</h1>
+            <hr/>
+            <fieldset id="drop_menu">
+                <select id="category">
+                <option value="Any Category" selected>Any category</option>
+                <option disabled> select category</option>
+                <option value="Computer Science">Computer Science</option>
+                
+            </select>
+            </fieldset>
+            <fieldset id="drop_menu">
+                <select id="Number_of_questions">
+                <option value="" selected>5</option>
+                <option disabled> Select number of questions</option>
+                <option>1</option>
+                <option value="2">2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            
+            </select>
+            </fieldset>
+            <fieldset id="drop_menu">
+                <select id="Difficulty_level">
+                <option value="">Any Difficulty</option>
+                <option disabled> select category</option>
+                <option>easy</option>
+            </select>
+            </fieldset>
+            <fieldset id="drop_menu">
+                <select id="Question_Types">
+                <option value="">Any Type</option>
+                <option disabled> select category</option>
+                <option>Multiple</option>
+            </select>
+            </fieldset>
+            <fieldset id="Set_Time">
+                <select id="hour">
+                <option value="" selected>0</option>
+                <option disabled> select Hour</option>
+                <option>1</option>
+            </select>
+            <select  id="minutes">
+                <option  value="" selected>2</option>
+                <option disabled> select Minutes</option>
+                <option>5</option>
+            </select>
+            <select id="second">
+                <option value="" selected>0</option>
+                <option disabled> select Seconds</option>
+                <option>5</option>
+            </select>
+            
+            </fieldset>
+            <hr>
+            <a href="question.html"><button id="Start_button" data-loading-text="Loading..."><i class="fa fa-play"></i> Play Now</button></a>
+            
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

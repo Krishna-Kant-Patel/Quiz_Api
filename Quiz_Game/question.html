@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game - API Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "quiz.css" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    
+    <div id="nav_bar">
+        <div id="App_heading">
+            <h1 id="heading">Quiz App</h1>
+        </div>
+        <div id="install_app">
+            <button id="install_button"><i class="fa fa-download"></i> Install</button>
+        </div>
+    </div>
+    
+    <div class = "wrapper">
+        <div class = "quiz-container">
+            <div class = "quiz-head">
+                
+                <div class = "quiz-score flex">
+                    
+                    <span>Question No.<span id = "correct-score"></span> of <span id = "total-question"></span></span>
+                    
+                </div>
+                <div></div>
+            </div>
+            <div class = "quiz-body">
+                <div class="question">
+                <h2 class = "quiz-question" id = "question"></h2>
+            </div>
+                <ul class = "quiz-options">
+                </ul>
+                <div id = "result">
+                </div>
+            </div>
+            <div class = "quiz-foot">
+                <button type = "button" id = "check-answer">Next <i class="fa fa-angle-right"></i></button>
+                <button type = "button" id = "play-again">Play Again!</button>
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src = "quiz.js"></script>
+</body>
+</html>

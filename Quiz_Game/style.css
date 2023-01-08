@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav_bar{
+    height:80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    
+}
+
+#App_heading{
+    height: 100%;
+    width: 200px;
+    align-items: center;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-right: 1px solid rgb(43, 39, 39);
+}
+#heading{
+    color: rgb(92, 92, 234);
+}
+#install_app{
+    height: 100%;
+    width: 200px;
+    border-left: 2px solid rgb(63, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+a{
+  text-decoration: none;
+}
+#install_button{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    background-color: rgb(43, 99, 68);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    
+
+}
+#install_button:hover {
+    background-color: RoyalBlue;
+  }
+
+  #main_container, #wrapper{
+    border: 1px solid rgb(238, 232, 232);
+    height:40 0px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 12.5%;
+    margin-top: 32px;
+    padding: 5px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+  }
+  #container_box{
+    
+    height: 100%;
+    width: 75%;
+    padding: 20px;
+  }
+  #mind_image{
+    height:150px;
+    width: 150px;
+    border-radius: 20px;
+  }
+  #drop_menu{
+    border: none;
+    height:55px;
+  }
+  select{
+    border-radius: 5px;
+    border: 1px solid rgb(238, 232, 232);
+  }
+  #category, #Number_of_questions, #Difficulty_level,#Question_Types{
+    height: 80%;
+    width:100%;
+  }
+#Set_Time{
+  border: none;
+  height: 55px;
+
+}
+#hour, #minutes, #second{
+  width: 30%;
+  height:80%
+}
+#Start_button{
+  height: 50px;
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#Start_button:hover {
+  background-color: RoyalBlue;
+}
+
+
+.quiz-body{
+  height:100%;
+  width: 100%;
+  padding: 4px;
+}
+.abc{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+
+}
+.Question_no{
+  height:100%;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 1px 2px 2px 1px #423f46;
+  border-radius: 2px;
+}
+.timer{
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 1px 2px 2px 1px #423f46;
+  border-radius: 2px;
+}
+.timer div{
+  border-radius: 2px;
+  height:100%;
+  font-size: 20px;
+  border: 1px solid rgb(239, 227, 227);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px;
+  background-color: whitesmoke;
+}
